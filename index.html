@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="milligram-1.4.1\dist\milligram.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quote Generator</title>
+</head>
+<body>
+    
+    <div class="quote-box">
+        <h2>Quote of the Day</h2>
+        <blockquote class="quote" id="quote">Loading...</blockquote>
+        <span class="author" id="author">Loading...</span>
+        <div class="buttons">
+            <button onclick="getQuote()">New Quote</button>
+            <button onclick="tweet()"><img src="tweeter.jpg" alt="X">Tweet</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    
+</body>
+</html>
